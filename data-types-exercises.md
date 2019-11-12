@@ -10,28 +10,29 @@
 2 ** 3
 ```
 ```text
-Your answer.
+8
 ```
 
 ```rb
 ((16 / 4) * (2 + 1)) ** 2
 ```
 ```text
-Your answer.
+144
 ```
 
 ```rb
 ("a milli " + "a milli") * 3
 ```
 ```text
-Your answer.
+"a milli a millia milli a millia milli a milli"
 ```
 
 ```rb
 ("a milli " * 4) / 2
 ```
 ```text
-Your answer.
+undefined method `/' for "a milli a milli a milli a milli ":String
+
 ```
 
 ```rb
@@ -47,7 +48,9 @@ my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
 ```
 ```text
-Your answer.
+TypeError: no implicit conversion of Integer into String
+from (pry):7:in `+'
+
 ```
 
 ### Truthiness and Falsiness
@@ -78,7 +81,7 @@ if no_name
 end
 ```
 ```text
-Your answer.
+
 ```
 
 ```rb
@@ -88,7 +91,7 @@ if no_name
 end
 ```
 ```text
-Your answer.
+ca
 ```
 
 ```rb
@@ -98,7 +101,7 @@ if age
 end
 ```
 ```text
-Your answer.
+need to change the number to string 
 ```
 
 ```rb
